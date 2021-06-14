@@ -19,5 +19,15 @@ Cargo's bin directory ($HOME/.cargo/bin).\
 
 To configure your current shell, run:\
 source $HOME/.cargo/env\
-
-
+5. How to use the git
+git clone https://github.com/duonglvtnaist/Rust-substrate-nucs.git\
+git remote add upstream https://github.com/duonglvtnaist/Rust-substrate-nucs\
+git checkout -b \<yourbranch\>\
+vim \<filename to update\>\
+git add \<filename\>\
+git git commit -m "Commit name"\
+git push --set-upstream upstream \<yourbranch\>\
+--> Input\
+ username: duonglvtnaist\
+ password: duong622182@\
+--> Go to the git to add and merge pull request
