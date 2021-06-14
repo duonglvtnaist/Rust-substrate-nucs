@@ -29,7 +29,7 @@ git git commit -m "Commit name"\
 git push --set-upstream upstream \<yourbranch\>\
 --> Input\
  username: duonglvtnaist\
- password: duong622182@\
+ password: \*\*\*\*\*\*\*\*\*\*\*\*\
 --> Go to the git to add and merge pull request\
 6. SSH information:
 NUC001 ip: 163.221.183.93\
