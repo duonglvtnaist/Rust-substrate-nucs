@@ -33,20 +33,20 @@ git push --set-upstream upstream \<yourbranch\>\
 6. SSH information:
 NUC001 ip: 163.221.183.93\
 NUC002 ip: 163.221.124.43\
-ssh hong@address
-pass: user1comparch
-ssh luan@address
-pass: user2comparch
+ssh hong@address\
+pass: user1comparch\
+ssh luan@address\
+pass: user2comparch\
 ssh dung@address\
 pass: user3comparch\
 ssh chuong@address\
 pass: user4comparch\
 ssh dai@address\
-pass: user5comparch
-to change password please run a command: "passwd" after you log in the NUC00x
+pass: user5comparch\
+to change password please run a command: "passwd" after you log in the NUC00x\
 7. Teamviewer configuration
-NUC001:
-ID: 146 102 706
-Pass: nuc001
-ID: 195 481 088
-Pass: nuc002teamview
+NUC001:\
+ID: 146 102 706\
+Pass: nuc001\
+ID: 195 481 088\
+Pass: nuc002teamview\
