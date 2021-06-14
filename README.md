@@ -16,7 +16,6 @@ Necessary info:\
 To get started you may need to restart your current shell.\
 This would reload your PATH environment variable to include\
 Cargo's bin directory ($HOME/.cargo/bin).\
-
 To configure your current shell, run:\
 source $HOME/.cargo/env\
 5. How to use the git
