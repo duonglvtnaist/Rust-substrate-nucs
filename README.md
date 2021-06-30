@@ -12,6 +12,11 @@ ssh -X username@ipaddress\
 --> type your pass\
 4. Install Rust\
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh\
+\\rustup default nightly\
+cargo install cargo-generate\ \\ install rust WASM\
+rustup update\
+rustup update nightly\
+rustup target add wasm32-unknown-unknown --toolchain nightly\
 Necessary info:\
 To get started you may need to restart your current shell.\
 This would reload your PATH environment variable to include\
@@ -32,7 +37,7 @@ git push --set-upstream upstream \<yourbranch\>\
 --> Go to the git to add and merge pull request\
 6. SSH information:\
 NUC001 ip: 163.221.183.93\
-NUC002 ip: 163.221.124.43\
+NUC002 ip: 163.221.183.105\
 ssh hong@address\
 pass: user1comparch\
 ssh luan@address\
@@ -45,8 +50,14 @@ ssh dai@address\
 pass: user5comparch\
 to change password please run a command: "passwd" after you log in the NUC00x\
 7. Teamviewer configuration\
-NUC001:\
+NUC001\
 ID: 146 102 706\
 Pass: nuc001\
+NUC002\
 ID: 195 481 088\
 Pass: nuc002teamview\
+8. Install NodeJS\
+sudo apt update\
+sudo apt install nodejs\
+9. Install Rust Contract
+cargo install cargo-contract --vers ^0.12 --force --locked
